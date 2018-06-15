@@ -1,0 +1,28 @@
+{
+  "fileMap": {
+    "content/posts/poem/2018-06-15-about-me.json": {
+      "title": "最初の記事",
+      "created": "2018-06-14T00:00:00.000Z",
+      "preview": "タイトル\n サンプル記事です\n適当な内容\nhoge",
+      "dir": "content/posts/poem",
+      "base": "2018-06-15-about-me.json",
+      "ext": ".json",
+      "sourceBase": "2018-06-15-about-me.md",
+      "sourceExt": ".md"
+    },
+    "content/posts/game/2018-06-15-about-me.json": {
+      "title": "gameについて",
+      "created": "2018-06-15T00:00:00.000Z",
+      "preview": "タイトル\n サンプル記事です\n適当な内容\nhoge",
+      "dir": "content/posts/game",
+      "base": "2018-06-15-about-me.json",
+      "ext": ".json",
+      "sourceBase": "2018-06-15-about-me.md",
+      "sourceExt": ".md"
+    }
+  },
+  "sourceFileArray": [
+    "content/posts/game/2018-06-15-about-me.md",
+    "content/posts/poem/2018-06-15-about-me.md"
+  ]
+}

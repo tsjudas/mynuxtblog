@@ -1,0 +1,28 @@
+{
+  "name": "nuxt-example",
+  "version": "1.0.0",
+  "description": "Nuxt.js project",
+  "author": "takeshi-saito",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint",
+    "processmd": "processmd content/posts/**/*.md --outputDir content/posts --stdout --preview 50 > content/json/summary.json"
+  },
+  "dependencies": {
+    "@nuxtjs/sitemap": "^0.1.1",
+    "nuxt": "^1.0.0",
+    "processmd": "^4.2.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.15.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-vue": "^4.0.0"
+  }
+}

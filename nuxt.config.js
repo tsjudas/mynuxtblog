@@ -12,7 +12,7 @@ const generateDynamicRoutes = callback => {
 };
 
 const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
-  base: '/mynuxtblog/docs/'
+  base: '/mynuxtblog/'
 } : {};
 
 module.exports = {

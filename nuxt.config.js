@@ -32,10 +32,17 @@ module.exports = {
       { href: 'https://fonts.googleapis.com/icon?family=Material+Icons', rel: 'stylesheet' },
       { href: 'https://fonts.googleapis.com/css?family=Roboto:300,400', rel: 'stylesheet' }
     ],
-    css: [
-      'material-design-lite/src/material-design-lite.scss',
-      'typicons.font/src/font/typicons.css',
-    ],
+  },
+  css: [
+    'material-design-lite/src/material-design-lite.scss',
+    'typicons.font/src/font/typicons.css',
+  ],
+  render: {
+    bundleRenderer: {
+      shouldPreload: (file, type) => {
+        return ['script', 'style', 'font'].includes(type)
+      }
+    }
   },
   /*
   ** Customize the progress bar color
@@ -62,13 +69,6 @@ module.exports = {
       }
     },
     vendor: [ 'material-design-lite/material.min.js' ]
-  },
-  render: {
-    bundleRenderer: {
-      shouldPreload: (file, type) => {
-        return ['script', 'style', 'font'].includes(type)
-      }
-    }
   },
   router: routerBase
 };

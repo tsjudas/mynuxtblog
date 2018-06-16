@@ -1,6 +1,10 @@
 import Vue from 'vue'
 import NuxtLoading from './components/nuxt-loading.vue'
 
+import '../node_modules/material-design-lite/src/material-design-lite.scss'
+
+import '../node_modules/typicons.font/src/font/typicons.css'
+
 
 let layouts = {
 
@@ -11,7 +15,7 @@ let layouts = {
 let resolvedLayouts = {}
 
 export default {
-  head: {"title":"Useless-exercise-book","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"My Tech Blog using Nuxt.js"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Fmynuxtblog\u002Ffavicon.ico"},{"href":"https:\u002F\u002Ffonts.googleapis.com\u002Ficon?family=Material+Icons","rel":"stylesheet"},{"href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Roboto:300,400","rel":"stylesheet"}],"css":["material-design-lite\u002Fsrc\u002Fmaterial-design-lite.scss","typicons.font\u002Fsrc\u002Ffont\u002Ftypicons.css"],"style":[],"script":[]},
+  head: {"title":"Useless-exercise-book","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"My Tech Blog using Nuxt.js"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Fmynuxtblog\u002Ffavicon.ico"},{"href":"https:\u002F\u002Ffonts.googleapis.com\u002Ficon?family=Material+Icons","rel":"stylesheet"},{"href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Roboto:300,400","rel":"stylesheet"}],"style":[],"script":[]},
   render(h, props) {
     const loadingEl = h('nuxt-loading', { ref: 'loading' })
     const layoutEl = h(this.layout || 'nuxt')

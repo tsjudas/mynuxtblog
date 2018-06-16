@@ -1,5 +1,5 @@
 {
-  "publicPath": "/mynuxtblog/_nuxt/",
+  "publicPath": "/mynuxtblog/docs/_nuxt/",
   "all": [
     "pages/about.2aaeae6a929d9dbf0982.js",
     "img/typicons.107d077.svg",
@@ -10,15 +10,15 @@
     "fonts/typicons.95aa28e.woff",
     "layouts/default.54e16e1e864d0f0536db.js",
     "vendor.d7a8f7cdaeb78f58ea98.js",
-    "app.6948410654b5390690c9.js",
-    "manifest.5d2434c3374824486b12.js",
+    "app.8acf9ec33a53328c3e4f.js",
+    "manifest.fe2bd7677802d3fa3c25.js",
     "LICENSES",
     "index.spa.html"
   ],
   "initial": [
-    "manifest.5d2434c3374824486b12.js",
+    "manifest.fe2bd7677802d3fa3c25.js",
     "vendor.d7a8f7cdaeb78f58ea98.js",
-    "app.6948410654b5390690c9.js"
+    "app.8acf9ec33a53328c3e4f.js"
   ],
   "async": [
     "pages/about.2aaeae6a929d9dbf0982.js",

@@ -16,16 +16,16 @@ workboxSW.precache([
     "revision": "ee3c95e6e12d683dba5a168f8a24b730"
   },
   {
-    "url": "/mynuxtblog/_nuxt/manifest.b5764d0087a6aaa2598c.js",
-    "revision": "cb8657fe8dbd3cab1a5c9ce76f8a9982"
+    "url": "/mynuxtblog/_nuxt/manifest.579e62b8830dd70e0ba5.js",
+    "revision": "3c6ab09bfc6a119cf3cacf09ee0f6cdb"
   },
   {
     "url": "/mynuxtblog/_nuxt/pages/about.599d7a0d387718f45d35.js",
     "revision": "1ff91234ad6c3b045e8e69ddac6d83a1"
   },
   {
-    "url": "/mynuxtblog/_nuxt/pages/index.b9c9051a80ea5b90547a.js",
-    "revision": "52a67edd2ab42dbec0d630d39a4e7e25"
+    "url": "/mynuxtblog/_nuxt/pages/index.f0f848040debf7e721b6.js",
+    "revision": "47866b9982af2082f4cff8b1f0f623e3"
   },
   {
     "url": "/mynuxtblog/_nuxt/pages/post/_path/_url/index.085cdd69b786653f1011.js",

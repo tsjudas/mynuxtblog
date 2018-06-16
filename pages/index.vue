@@ -8,14 +8,16 @@
         {{post.preview}}
       </div>
     </div>
-    <footer class="mdl-cell mdl-cell--12-col">
-      <div>
+    <div class="mdl-layout mdl-grid">
+      <div class="mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
         <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" v-if="canBack" @click='prevpage'>
           <i class="material-icons">arrow_back</i>
         </button>
         <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" v-else disabled>
           <i class="material-icons">arrow_back</i>
         </button>
+      </div>
+      <div class="mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
         <div class="mdl-textfield mdl-js-textfield">
           <select class="mdl-textfield__input" :value="selectedPage" @change="jumppage">
             <option v-for="item in jumppages" :key="item.page" :value="item.page">
@@ -23,6 +25,8 @@
             </option>
           </select>
         </div>
+      </div>
+      <div class="mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
         <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" v-if="canForward" @click='nextpage'>
           <i class="material-icons">arrow_forward</i>
         </button>
@@ -30,7 +34,7 @@
           <i class="material-icons">arrow_forward</i>
         </button>
       </div>
-    </footer>
+    </div>
   </div>
 </template>
 

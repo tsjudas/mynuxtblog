@@ -12,8 +12,15 @@ const generateDynamicRoutes = callback => {
 };
 
 const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
-  base: '/mynuxtblog/'
-} : {};
+  base: '/mynuxtblog/',
+  scrollBehavior: function (to, from, savedPosition) {
+    return { x: 0, y: 0 };
+  }
+} : {
+  scrollBehavior: function (to, from, savedPosition) {
+    return { x: 0, y: 0 };
+  }
+};
 
 module.exports = {
   mode: 'spa',

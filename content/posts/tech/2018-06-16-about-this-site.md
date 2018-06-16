@@ -3,7 +3,7 @@ title: markdownで書いた記事をNuxt.js + MDLでレンダリングするSPA�
 created: 2018-06-16
 ---
 
-#### 経緯
+### 経緯
 
 技術ブログを以前から書いておきたいと思っていました:neutral_face:
 

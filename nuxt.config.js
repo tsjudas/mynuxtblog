@@ -2,8 +2,6 @@ const { sourceFileArray } = require('./content/json/summary.json');
 
 const generateDynamicRoutes = callback => {
   const routes = sourceFileArray.map(sourceFileName => {
-    // "content/posts/game/2018-06-15-about-me.md",
-    // "content/posts/poem/2018-06-15-about-me.md"
     const matched = sourceFileName.match(new RegExp("(.+)/([^/]+).md"));
     const path = matched[1].replace(new RegExp("/", "g"), "_");
     const fileName = matched[2];
@@ -13,21 +11,31 @@ const generateDynamicRoutes = callback => {
   callback(null, routes);
 };
 
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+  base: '/mynuxtblog/'
+} : {};
+
 module.exports = {
   mode: 'spa',
   /*
   ** Headers of the page
   */
   head: {
-    title: 'nuxt-example',
+    title: 'Useless-exercise-book',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Nuxt.js project' }
+      { hid: 'description', name: 'description', content: 'My Tech Blog using Nuxt.js' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+      { rel: 'icon', type: 'image/x-icon', href: '/mynuxtblog/favicon.ico' },
+      { href: 'https://fonts.googleapis.com/icon?family=Material+Icons', rel: 'stylesheet' },
+      { href: 'https://fonts.googleapis.com/css?family=Roboto:300,400', rel: 'stylesheet' }
+    ],
+    css: [
+      'material-design-lite/src/material-design-lite.scss',
+      'typicons.font/src/font/typicons.css',
+    ],
   },
   /*
   ** Customize the progress bar color
@@ -43,7 +51,7 @@ module.exports = {
     /*
     ** Run ESLint on save
     */
-    extend(config, { isDev, isClient }) {
+  extend(config, { isDev, isClient }) {
       if (isDev && isClient) {
         config.module.rules.push({
           enforce: 'pre',
@@ -52,9 +60,15 @@ module.exports = {
           exclude: /(node_modules)/
         })
       }
+    },
+    vendor: [ 'material-design-lite/material.min.js' ]
+  },
+  render: {
+    bundleRenderer: {
+      shouldPreload: (file, type) => {
+        return ['script', 'style', 'font'].includes(type)
+      }
     }
   },
-  router: {
-    base: '/mynuxtblog/'
-  }
-}
+  router: routerBase
+};

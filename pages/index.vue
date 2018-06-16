@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="title">My Blog App</h1>
+    <h1 class="title">ポンコツの雑記帳</h1>
     <div v-for="post in posts" :key="post.id">
       <router-link :to="`/post/${post.path}/${post.url}`">{{post.title}}</router-link>
       <p>{{post.preview}}</p>
@@ -14,7 +14,10 @@
     </select>
     <button v-if="canForward" @click='nextpage'>次へ</button>
     <button v-else disabled>次へ</button>
-    <router-link :to="`/post/game`">テスト</router-link>
+    <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
+      <i class="material-icons">add</i>
+    </button>
+
   </div>
 </template>
 

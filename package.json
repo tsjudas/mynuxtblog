@@ -11,18 +11,25 @@
     "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "npm run lint",
-    "processmd": "processmd content/posts/**/*.md --outputDir content/posts --stdout --preview 50 > content/json/summary.json"
+    "processmd": "processmd content/posts/**/*.md --outputDir content/posts --stdout --preview 50 > content/json/summary.json",
+    "build:gh": "DEPLOY_ENV=GH_PAGES nuxt build",
+    "generate:gh": "DEPLOY_ENV=GH_PAGES rm -rf docs/* && nuxt generate && cp -r dist/* docs"
   },
   "dependencies": {
     "@nuxtjs/sitemap": "^0.1.1",
+    "material-design-lite": "^1.3.0",
+    "node-sass": "^4.9.0",
     "nuxt": "^1.0.0",
-    "processmd": "^4.2.1"
+    "processmd": "^4.2.1",
+    "sass-loader": "^7.0.3",
+    "typicons.font": "^2.0.9"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
     "eslint": "^4.15.0",
+    "eslint-config-vue": "^2.0.2",
     "eslint-friendly-formatter": "^3.0.0",
     "eslint-loader": "^1.7.1",
-    "eslint-plugin-vue": "^4.0.0"
+    "eslint-plugin-vue": "^4.5.0"
   }
 }

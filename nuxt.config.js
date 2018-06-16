@@ -11,9 +11,9 @@ const generateDynamicRoutes = callback => {
   callback(null, routes);
 };
 
-const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
-  base: '/mynuxtblog/'
-} : {};
+// const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+//   base: '/mynuxtblog/'
+// } : {};
 
 module.exports = {
   mode: 'spa',
@@ -63,5 +63,7 @@ module.exports = {
     },
     vendor: [ 'material-design-lite/material.min.js' ]
   },
-  router: routerBase
+  router: {
+    base: '/mynuxtblog/'
+  }
 };

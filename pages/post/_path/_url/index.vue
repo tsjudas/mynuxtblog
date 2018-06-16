@@ -13,7 +13,8 @@
 <script >
 import {sourceFileArray} from '~/content/json/summary.json';
 const md = require('markdown-it')({linkify: true})
-  .use(require('markdown-it-highlightjs'));
+  .use(require('markdown-it-highlightjs'))
+  .use(require('markdown-it-emoji'));
 
 export default {
   validate({params}){

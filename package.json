@@ -13,7 +13,7 @@
     "precommit": "npm run lint",
     "processmd": "processmd content/posts/**/*.md --outputDir content/posts --stdout --preview 50 > content/json/summary.json",
     "build:gh": "DEPLOY_ENV=GH_PAGES nuxt build",
-    "generate:gh": "DEPLOY_ENV=GH_PAGES rm -rf docs/* && nuxt generate && cp -r dist/* docs"
+    "generate:gh": "rm -rf docs/* && DEPLOY_ENV=GH_PAGES nuxt generate && cp -r dist/* docs"
   },
   "dependencies": {
     "@nuxtjs/sitemap": "^0.1.1",

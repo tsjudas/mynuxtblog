@@ -1,28 +1,28 @@
 {
-  "publicPath": "/_nuxt/",
+  "publicPath": "/mynuxtblog/_nuxt/",
   "all": [
     "pages/about.2aaeae6a929d9dbf0982.js",
     "img/typicons.107d077.svg",
     "fonts/typicons.a509074.eot",
     "fonts/typicons.29f9630.ttf",
-    "pages/post/_path/_url/index.142a08fb95e05ddf4ea7.js",
+    "pages/post/_path/_url/index.f810d2b295bae37be6d8.js",
     "pages/index.0364a159b89d8868f22f.js",
     "fonts/typicons.95aa28e.woff",
     "layouts/default.54e16e1e864d0f0536db.js",
     "vendor.d7a8f7cdaeb78f58ea98.js",
-    "app.3c7eee2c976c7c26903f.js",
-    "manifest.89a6b3b4b1f0cec0e536.js",
+    "app.a85da82be106ab034c86.js",
+    "manifest.5b6c2081e0447df43605.js",
     "LICENSES",
     "index.spa.html"
   ],
   "initial": [
-    "manifest.89a6b3b4b1f0cec0e536.js",
+    "manifest.5b6c2081e0447df43605.js",
     "vendor.d7a8f7cdaeb78f58ea98.js",
-    "app.3c7eee2c976c7c26903f.js"
+    "app.a85da82be106ab034c86.js"
   ],
   "async": [
     "pages/about.2aaeae6a929d9dbf0982.js",
-    "pages/post/_path/_url/index.142a08fb95e05ddf4ea7.js",
+    "pages/post/_path/_url/index.f810d2b295bae37be6d8.js",
     "pages/index.0364a159b89d8868f22f.js",
     "layouts/default.54e16e1e864d0f0536db.js"
   ],
@@ -236,6 +236,9 @@
       6,
       2,
       3
+    ],
+    "7d39510e": [
+      4
     ],
     "0355a862": [
       8,
@@ -1059,13 +1062,6 @@
       2,
       3
     ],
-    "33ccf6e7": [
-      8,
-      1,
-      6,
-      2,
-      3
-    ],
     "9b21204e": [
       8,
       1,
@@ -1081,6 +1077,13 @@
       3
     ],
     "5184268c": [
+      8,
+      1,
+      6,
+      2,
+      3
+    ],
+    "33ccf6e7": [
       8,
       1,
       6,

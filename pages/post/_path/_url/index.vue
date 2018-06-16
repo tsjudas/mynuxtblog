@@ -1,7 +1,7 @@
 <template>
   <div class="mdl-grid">
     <div class="mdl-cell mdl-cell--12-col">
-      <h1>{{title}}</h1>
+      <h3>{{title}}</h3>
     </div>
     <div class="mdl-cell mdl-cell--12-col" v-html="parseHtml"></div>
     <div class="mdl-cell mdl-cell--12-col">

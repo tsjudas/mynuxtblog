@@ -49,13 +49,13 @@ N番煎じ:tea:ながらも自分で１から作成したいと思い起ち、�
 
 - GithubPagesへのデプロイ問題
 
-    - 何故かmanifest.js等々を読み込まん:anger:
+    何故かmanifest.js等々を読み込まん:anger:
 
-        build時にdistに作成される.nojekyllファイルが必要だったというたった1つの過ちに行き着くまでに軽く1,2時間は費やした。。。
+    build時にdistに作成される.nojekyllファイルが必要だったというたった1つの過ちに行き着くまでに軽く1,2時間は費やした。。。
 
-        StackOverflowにそのままズバリなページがあって非常に助かりました。
+    StackOverflowにそのままズバリなページがあって非常に助かりました。
 
-        https://stackoverflow.com/questions/49986185/github-pages-error
+    https://stackoverflow.com/questions/49986185/github-pages-error
 - Markdownのリンクが有効にならない
 
     この記事を書いてて気づいたのですが、リンクの記載があってもただの文字列として変換されてしまっていました:unamused:

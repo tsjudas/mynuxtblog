@@ -1,15 +1,5 @@
 {
   "fileMap": {
-    "content/posts/tech/2018-06-16-about-this-site.json": {
-      "title": "markdownで書いた記事をNuxt.js + MDLでレンダリングするSPAブログを立ち上げました",
-      "created": "2018-06-16T00:00:00.000Z",
-      "preview": "経緯\n\n技術ブログを以前から書いておきたいと思っていました:neutral_face:\n\nちょっと調べた:mag:だけで素晴らしいサイト、仕組み(はてなブログやCMS、JekyllやHugoといったSSG等)は多数見つかったのですが:eyes:\n\nN番煎じ:tea:ながらも自分で１から作成したいと思い起ち、作成するに至りました。\n\n(絵文字対応したので、ここぞとばかりに多用しています:smile:)\n\n 何故思い起ったのか\n\nNuxt.jsに触れてみたかった\n\n    Javaのサーバサイドエンジニアなので意図して触れない限り疎遠なフロントエンドの世界:open_mouth:\n\n    最近様々なJSフレームワークが台頭してるようですが、その内の一つ、Vue.jsに触れたことがなかったので触ってみようと思いました。\n\nサイトを1から組む体験がしたかった",
-      "dir": "content/posts/tech",
-      "base": "2018-06-16-about-this-site.json",
-      "ext": ".json",
-      "sourceBase": "2018-06-16-about-this-site.md",
-      "sourceExt": ".md"
-    },
     "content/posts/etc/2018-06-15-about-me.json": {
       "title": "なにかこうかな",
       "created": "2018-06-15T00:00:00.000Z",
@@ -18,6 +8,16 @@
       "base": "2018-06-15-about-me.json",
       "ext": ".json",
       "sourceBase": "2018-06-15-about-me.md",
+      "sourceExt": ".md"
+    },
+    "content/posts/tech/2018-06-16-about-this-site.json": {
+      "title": "markdownで書いた記事をNuxt.js + MDLでレンダリングするSPAブログを立ち上げました",
+      "created": "2018-06-16T00:00:00.000Z",
+      "preview": "経緯\n\n技術ブログを以前から書いておきたいと思っていました:neutral_face:\n\nちょっと調べた:mag:だけで素晴らしいサイト、仕組み(はてなブログやCMS、JekyllやHugoといったSSG等)は多数見つかったのですが:eyes:\n\nN番煎じ:tea:ながらも自分で１から作成したいと思い起ち、作成するに至りました。\n\n(絵文字対応したので、ここぞとばかりに多用しています:smile:)\n\n 何故思い起ったのか\n\nNuxt.jsに触れてみたかった\n\n    Javaのサーバサイドエンジニアなので意図して触れない限り疎遠なフロントエンドの世界:open_mouth:\n\n    最近様々なJSフレームワークが台頭してるようですが、その内の一つ、Vue.jsに触れたことがなかったので触ってみようと思いました。\n\nサイトを1から組む体験がしたかった",
+      "dir": "content/posts/tech",
+      "base": "2018-06-16-about-this-site.json",
+      "ext": ".json",
+      "sourceBase": "2018-06-16-about-this-site.md",
       "sourceExt": ".md"
     }
   },

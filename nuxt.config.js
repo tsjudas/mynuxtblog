@@ -27,6 +27,9 @@ module.exports = {
   modules: [
     '@nuxtjs/sitemap',
     '@nuxtjs/pwa',
+    ['@nuxtjs/google-analytics', {
+      id: 'UA-120957035-1'
+    }]
   ],
   /*
   ** Headers of the page

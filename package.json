@@ -16,6 +16,7 @@
     "generate:gh": "rm -rf docs/* && DEPLOY_ENV=GH_PAGES nuxt generate && cp -r dist/* docs"
   },
   "dependencies": {
+    "@nuxtjs/google-analytics": "^2.0.2",
     "@nuxtjs/pwa": "^2.0.8",
     "@nuxtjs/sitemap": "^0.1.1",
     "markdown-it-emoji": "^1.4.0",

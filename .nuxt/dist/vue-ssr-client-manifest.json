@@ -5,24 +5,24 @@
     "img/typicons.107d077.svg",
     "fonts/typicons.a509074.eot",
     "fonts/typicons.29f9630.ttf",
-    "pages/post/_path/_url/index.f810d2b295bae37be6d8.js",
+    "pages/post/_path/_url/index.c3426ee54b2b3cd8e2c1.js",
     "pages/index.0364a159b89d8868f22f.js",
     "fonts/typicons.95aa28e.woff",
     "layouts/default.54e16e1e864d0f0536db.js",
     "vendor.d7a8f7cdaeb78f58ea98.js",
     "app.a85da82be106ab034c86.js",
-    "manifest.5b6c2081e0447df43605.js",
+    "manifest.fcd4f96895c53535fe26.js",
     "LICENSES",
     "index.spa.html"
   ],
   "initial": [
-    "manifest.5b6c2081e0447df43605.js",
+    "manifest.fcd4f96895c53535fe26.js",
     "vendor.d7a8f7cdaeb78f58ea98.js",
     "app.a85da82be106ab034c86.js"
   ],
   "async": [
     "pages/about.2aaeae6a929d9dbf0982.js",
-    "pages/post/_path/_url/index.f810d2b295bae37be6d8.js",
+    "pages/post/_path/_url/index.c3426ee54b2b3cd8e2c1.js",
     "pages/index.0364a159b89d8868f22f.js",
     "layouts/default.54e16e1e864d0f0536db.js"
   ],

@@ -12,7 +12,7 @@
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "npm run lint",
     "processmd": "processmd content/posts/**/*.md --outputDir content/posts --stdout --preview 50 > content/json/summary.json",
-    "build:gh": "DEPLOY_ENV=GH_PAGES nuxt build",
+    "build:gh": "rm -rf dist/* && DEPLOY_ENV=GH_PAGES nuxt build",
     "generate:gh": "rm -rf docs/* && DEPLOY_ENV=GH_PAGES nuxt generate && cp -r dist/* docs"
   },
   "dependencies": {

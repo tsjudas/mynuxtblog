@@ -3,7 +3,7 @@
     <div class="mdl-cell mdl-cell--12-col">
       <h1>{{title}}</h1>
     </div>
-    <div class="mdl-cell mdl-cell--12-col" v-html="bodyHtml"></div>
+    <div class="mdl-cell mdl-cell--12-col" v-html="parseHtml"></div>
     <div class="mdl-cell mdl-cell--12-col">
       <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" @click="goback">戻る</button>
     </div>
@@ -12,6 +12,9 @@
 
 <script >
 import {sourceFileArray} from '~/content/json/summary.json';
+const md = require('markdown-it')({linkify: true})
+  .use(require('markdown-it-highlightjs'));
+
 export default {
   validate({params}){
     return sourceFileArray.filter(item => {
@@ -20,7 +23,9 @@ export default {
   },
   asyncData({params}){
     const moduleUrl = params.path.replace(/_/g, '/') + '/' + params.url;
-    return Object.assign({}, require(`~/${moduleUrl}.json`), moduleUrl);
+    const post = Object.assign({}, require(`~/${moduleUrl}.json`), moduleUrl);
+    post.parseHtml = md.render(post.bodyContent);
+    return post;
   },
   head() {
     const title = `${this.title}`;
@@ -31,7 +36,7 @@ export default {
   methods: {
     goback() {
       this.$router.back();
-    }
+    },
   }
 }
 </script>

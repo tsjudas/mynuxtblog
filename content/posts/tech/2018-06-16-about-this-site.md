@@ -1,4 +1,8 @@
-# Nuxt.js + MDLなブログ(記事はmarkdown製)を立ち上げました
+---
+title: Nuxt.js + MDLなブログ(記事はmarkdown製)を立ち上げました
+created: 2018-06-16
+---
+
 ## 経緯
 
 技術ブログを以前から書いておきたいと思っていました。
@@ -21,9 +25,9 @@ Javaのサーバサイドエンジニアなので意図して触れない限り�
 
 1. Markdownで記事を書く
 
-    processmdを使用しました。
+    [processmd](https://www.npmjs.com/package/processmd)を使用しました。
 
-    サマリファイル出力や見出し作成機能が非常に便利でした。
+    サマリファイル出力や見出し作成機能が非常に便利でした。が…(後述)
 
 1. Nuxt.jsの動的ルーティングで自動収集
 
@@ -43,7 +47,24 @@ Javaのサーバサイドエンジニアなので意図して触れない限り�
 
         build時にdistに作成される.nojekyllファイルが必要だったというたった1つの過ちに行き着くまでに軽く1,2時間は費やした。。。
 
-        StackOverflowにそのままズバリなページがあって助かりました。 https://stackoverflow.com/questions/49986185/github-pages-error
+        StackOverflowにそのままズバリなページがあって助かりました。
+        https://stackoverflow.com/questions/49986185/github-pages-error
+- Markdownのリンクが有効にならない
+
+    この記事を書いてて気づいたのですが、リンクの記載があってもただの文字列として変換されてしまっていました。
+    そして、processmdのオプションでpreset名を与えても有効にできる手段が見つからず。。
+
+    結局レンダリング時にmarkdown-itを呼び直して自前でやっています。こんな感じに。
+
+    ```javascript
+    asyncData({params}){
+        const moduleUrl = params.path.replace(/_/g, '/') + '/' + params.url;
+        const post = Object.assign({}, require(`~/${moduleUrl}.json`), moduleUrl);
+        const md = require('markdown-it')({linkify: true}).use(require('markdown-it-highlightjs'));
+        post.parseHtml = md.render(post.bodyContent); // 意味ねぇ！
+        return post;
+    },
+    ```
 
 ## 今後の展望
 

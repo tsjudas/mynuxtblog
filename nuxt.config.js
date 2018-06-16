@@ -18,7 +18,8 @@ const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
 module.exports = {
   mode: 'spa',
   modules: [
-    '@nuxtjs/sitemap'
+    '@nuxtjs/sitemap',
+    '@nuxtjs/pwa',
   ],
   /*
   ** Headers of the page
@@ -39,6 +40,7 @@ module.exports = {
   css: [
     'material-design-lite/material.min.css',
     'typicons.font/src/font/typicons.css',
+    'markdown-it-highlight/dist/index.css',
   ],
   /*
   ** Customize the progress bar color
@@ -73,5 +75,8 @@ module.exports = {
     generate: true,
     exclude: ['/404'],
     routes: generateDynamicRoutes
+  },
+  workbox: {
+    dev: true, //開発環境でもPWAできるように
   }
 };

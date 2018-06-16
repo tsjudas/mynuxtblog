@@ -11,12 +11,14 @@
     "generate": "rm -rf docs/* && nuxt generate && cp -r dist/* docs",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "npm run lint",
-    "processmd": "processmd content/posts/**/*.md --outputDir content/posts --stdout --preview 50 > content/json/summary.json",
+    "processmd": "processmd content/posts/**/*.md --outputDir content/posts --stdout --preview 500 > content/json/summary.json",
     "build:gh": "rm -rf dist/* && DEPLOY_ENV=GH_PAGES nuxt build",
     "generate:gh": "rm -rf docs/* && DEPLOY_ENV=GH_PAGES nuxt generate && cp -r dist/* docs"
   },
   "dependencies": {
+    "@nuxtjs/pwa": "^2.0.8",
     "@nuxtjs/sitemap": "^0.1.1",
+    "markdown-it-highlightjs": "^3.0.0",
     "material-design-lite": "^1.3.0",
     "nuxt": "^1.0.0",
     "processmd": "^4.2.1",

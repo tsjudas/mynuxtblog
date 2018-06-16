@@ -5,6 +5,8 @@ import '../node_modules/material-design-lite/material.min.css'
 
 import '../node_modules/typicons.font/src/font/typicons.css'
 
+import '../node_modules/markdown-it-highlight/dist/index.css'
+
 
 let layouts = {
 
@@ -15,7 +17,7 @@ let layouts = {
 let resolvedLayouts = {}
 
 export default {
-  head: {"title":"Useless-exercise-book","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"My Tech Blog using Nuxt.js"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Fmynuxtblog\u002Ffavicon.ico"},{"href":"https:\u002F\u002Ffonts.googleapis.com\u002Ficon?family=Material+Icons","rel":"stylesheet"},{"href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Roboto:300,400","rel":"stylesheet"}],"style":[],"script":[]},
+  head: {"title":"Useless-exercise-book","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"My Tech Blog using Nuxt.js"},{"hid":"mobile-web-app-capable","name":"mobile-web-app-capable","content":"yes"},{"hid":"apple-mobile-web-app-title","name":"apple-mobile-web-app-title","content":"nuxt-example"},{"hid":"author","name":"author","content":"takeshi-saito"},{"hid":"theme-color","name":"theme-color","content":"#3B8070"},{"hid":"og:type","name":"og:type","property":"og:type","content":"website"},{"hid":"og:title","name":"og:title","property":"og:title","content":"nuxt-example"},{"hid":"og:description","name":"og:description","property":"og:description","content":"Nuxt.js project"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Fmynuxtblog\u002Ffavicon.ico"},{"href":"https:\u002F\u002Ffonts.googleapis.com\u002Ficon?family=Material+Icons","rel":"stylesheet"},{"href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Roboto:300,400","rel":"stylesheet"},{"rel":"manifest","href":"\u002Fmynuxtblog\u002F_nuxt\u002Fmanifest.ac94d0e0.json"}],"style":[],"script":[],"htmlAttrs":{"lang":"en"}},
   render(h, props) {
     const loadingEl = h('nuxt-loading', { ref: 'loading' })
     const layoutEl = h(this.layout || 'nuxt')

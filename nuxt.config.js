@@ -34,16 +34,9 @@ module.exports = {
     ],
   },
   css: [
-    'material-design-lite/src/material-design-lite.scss',
+    'material-design-lite/material.min.css',
     'typicons.font/src/font/typicons.css',
   ],
-  render: {
-    bundleRenderer: {
-      shouldPreload: (file, type) => {
-        return ['script', 'style', 'font'].includes(type)
-      }
-    }
-  },
   /*
   ** Customize the progress bar color
   */

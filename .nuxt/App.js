@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import NuxtLoading from './components/nuxt-loading.vue'
 
-import '../node_modules/material-design-lite/src/material-design-lite.scss'
+import '../node_modules/material-design-lite/material.min.css'
 
 import '../node_modules/typicons.font/src/font/typicons.css'
 

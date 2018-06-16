@@ -18,7 +18,7 @@ export default {
     return Object.assign({}, require(`~/${moduleUrl}.json`), moduleUrl);
   },
   head() {
-    const title = '$this.title';
+    const title = `${this.title}`;
     return {
       title: title,
     };

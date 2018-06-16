@@ -8,16 +8,16 @@ const workboxSW = new self.WorkboxSW({
 
 workboxSW.precache([
   {
-    "url": "/mynuxtblog/_nuxt/app.3e9a749b2d32fff1cec2.js",
-    "revision": "361a919475bb19784440a80c641e8d53"
+    "url": "/mynuxtblog/_nuxt/app.6e1189416006501fef25.js",
+    "revision": "fc59d304a8beb9c502d32b59bb1eac8b"
   },
   {
     "url": "/mynuxtblog/_nuxt/layouts/default.ec4d1232710bccbb528e.js",
     "revision": "ee3c95e6e12d683dba5a168f8a24b730"
   },
   {
-    "url": "/mynuxtblog/_nuxt/manifest.753138b1b8607a560634.js",
-    "revision": "83821919e43b2c7094242800602545e8"
+    "url": "/mynuxtblog/_nuxt/manifest.b5764d0087a6aaa2598c.js",
+    "revision": "cb8657fe8dbd3cab1a5c9ce76f8a9982"
   },
   {
     "url": "/mynuxtblog/_nuxt/pages/about.599d7a0d387718f45d35.js",
@@ -28,8 +28,8 @@ workboxSW.precache([
     "revision": "52a67edd2ab42dbec0d630d39a4e7e25"
   },
   {
-    "url": "/mynuxtblog/_nuxt/pages/post/_path/_url/index.0d0738beb96f52d70c9c.js",
-    "revision": "3d1f828aa9679b58ac67e1be988b1eab"
+    "url": "/mynuxtblog/_nuxt/pages/post/_path/_url/index.085cdd69b786653f1011.js",
+    "revision": "b49525414f3a8de9591ae725283b0130"
   },
   {
     "url": "/mynuxtblog/_nuxt/vendor.d7a8f7cdaeb78f58ea98.js",

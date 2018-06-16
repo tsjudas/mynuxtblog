@@ -1,7 +1,12 @@
 <template>
-  <div>
-    <h1>{{title}}</h1>
-    <div v-html="bodyHtml"></div>
+  <div class="mdl-grid">
+    <div class="mdl-cell mdl-cell--12-col">
+      <h1>{{title}}</h1>
+    </div>
+    <div class="mdl-cell mdl-cell--12-col" v-html="bodyHtml"></div>
+    <div class="mdl-cell mdl-cell--12-col">
+      <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" @click="goback">戻る</button>
+    </div>
   </div>
 </template>
 
@@ -22,6 +27,11 @@ export default {
     return {
       title: title,
     };
+  },
+  methods: {
+    goback() {
+      this.$router.back();
+    }
   }
 }
 </script>

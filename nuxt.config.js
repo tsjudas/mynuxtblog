@@ -17,6 +17,9 @@ const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
 
 module.exports = {
   mode: 'spa',
+  modules: [
+    '@nuxtjs/sitemap'
+  ],
   /*
   ** Headers of the page
   */
@@ -63,5 +66,12 @@ module.exports = {
     },
     vendor: [ 'material-design-lite/material.min.js' ]
   },
-  router: routerBase
+  router: routerBase,
+  sitemap: {
+    path: '/sitemap.xml',
+    hostname: 'https://tsjudas.github.io/mynuxtblog/',
+    generate: true,
+    exclude: ['/404'],
+    routes: generateDynamicRoutes
+  }
 };

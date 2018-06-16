@@ -1,4 +1,4 @@
-const onePageNum = 2;
+const onePageNum = 4;
 
 export const state = () => ({
   posts: [],

@@ -1,0 +1,11 @@
+{
+  "bodyContent": "# 工事中",
+  "bodyHtml": "<h1>工事中</h1>\n",
+  "preview": "工事中",
+  "title": "工事中",
+  "dir": "content/posts/etc",
+  "base": "2018-06-15-about-me.json",
+  "ext": ".json",
+  "sourceBase": "2018-06-15-about-me.md",
+  "sourceExt": ".md"
+}

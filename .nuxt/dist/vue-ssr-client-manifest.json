@@ -1,30 +1,30 @@
 {
   "publicPath": "/mynuxtblog/_nuxt/",
   "all": [
-    "pages/about.2aaeae6a929d9dbf0982.js",
+    "pages/index.b9c9051a80ea5b90547a.js",
     "img/typicons.107d077.svg",
     "fonts/typicons.a509074.eot",
     "fonts/typicons.29f9630.ttf",
-    "pages/post/_path/_url/index.2f7a626ef30260e75400.js",
-    "pages/index.0364a159b89d8868f22f.js",
+    "pages/post/_path/_url/index.72fcf84d4fd05e2b2f83.js",
+    "layouts/default.ec4d1232710bccbb528e.js",
     "fonts/typicons.95aa28e.woff",
-    "layouts/default.54e16e1e864d0f0536db.js",
+    "pages/about.599d7a0d387718f45d35.js",
     "vendor.d7a8f7cdaeb78f58ea98.js",
-    "app.6948410654b5390690c9.js",
-    "manifest.5d2434c3374824486b12.js",
+    "app.f4e7eabef9d1e32b04ee.js",
+    "manifest.cef6b1b21c93a822f280.js",
     "LICENSES",
     "index.spa.html"
   ],
   "initial": [
-    "manifest.5d2434c3374824486b12.js",
+    "manifest.cef6b1b21c93a822f280.js",
     "vendor.d7a8f7cdaeb78f58ea98.js",
-    "app.6948410654b5390690c9.js"
+    "app.f4e7eabef9d1e32b04ee.js"
   ],
   "async": [
-    "pages/about.2aaeae6a929d9dbf0982.js",
-    "pages/post/_path/_url/index.2f7a626ef30260e75400.js",
-    "pages/index.0364a159b89d8868f22f.js",
-    "layouts/default.54e16e1e864d0f0536db.js"
+    "pages/index.b9c9051a80ea5b90547a.js",
+    "pages/post/_path/_url/index.72fcf84d4fd05e2b2f83.js",
+    "layouts/default.ec4d1232710bccbb528e.js",
+    "pages/about.599d7a0d387718f45d35.js"
   ],
   "modules": {
     "28504008": [
@@ -84,7 +84,7 @@
       3
     ],
     "6edb496c": [
-      5
+      0
     ],
     "70bb0088": [
       8,
@@ -108,7 +108,7 @@
       3
     ],
     "0413d834": [
-      5
+      0
     ],
     "0eaa6a6e": [
       8,
@@ -147,9 +147,6 @@
       6,
       2,
       3
-    ],
-    "12db5a89": [
-      4
     ],
     "020385fa": [
       8,
@@ -196,8 +193,11 @@
       2,
       3
     ],
-    "9a274390": [
+    "77b72c1c": [
       5
+    ],
+    "9a274390": [
+      0
     ],
     "6be27d14": [
       8,
@@ -237,9 +237,6 @@
       2,
       3
     ],
-    "7d39510e": [
-      4
-    ],
     "0355a862": [
       8,
       1,
@@ -253,6 +250,9 @@
       6,
       2,
       3
+    ],
+    "2acb8cb7": [
+      4
     ],
     "e71385e4": [
       4
@@ -300,7 +300,7 @@
       3
     ],
     "7bce5c55": [
-      7
+      5
     ],
     "6238c1fa": [
       9
@@ -419,7 +419,7 @@
       3
     ],
     "72f1885a": [
-      7
+      5
     ],
     "5d89c938": [
       8,
@@ -509,6 +509,9 @@
     "68f8af9e": [
       9
     ],
+    "23a2b558": [
+      4
+    ],
     "348d2e4a": [
       8,
       1,
@@ -584,9 +587,6 @@
     ],
     "23562de4": [
       9
-    ],
-    "134a4598": [
-      4
     ],
     "65a815c5": [
       8,
@@ -710,7 +710,7 @@
       3
     ],
     "d996f91a": [
-      0
+      7
     ],
     "d7834d5c": [
       8,
@@ -767,6 +767,9 @@
       2,
       3
     ],
+    "a41cfa7a": [
+      5
+    ],
     "c13a32e4": [
       8,
       1,
@@ -817,7 +820,7 @@
       3
     ],
     "43838dbe": [
-      0
+      7
     ],
     "5bf04bb8": [
       8,
@@ -892,7 +895,7 @@
       3
     ],
     "77ab2844": [
-      0
+      7
     ],
     "75ea5f5e": [
       8,
@@ -909,6 +912,20 @@
       3
     ],
     "36636dde": [
+      8,
+      1,
+      6,
+      2,
+      3
+    ],
+    "097dc370": [
+      8,
+      1,
+      6,
+      2,
+      3
+    ],
+    "33ccf6e7": [
       8,
       1,
       6,
@@ -960,6 +977,9 @@
       2,
       3
     ],
+    "1106ea98": [
+      4
+    ],
     "8ad2ad38": [
       8,
       1,
@@ -1002,13 +1022,6 @@
       3
     ],
     "a7a00c6c": [
-      8,
-      1,
-      6,
-      2,
-      3
-    ],
-    "097dc370": [
       8,
       1,
       6,
@@ -1077,13 +1090,6 @@
       3
     ],
     "5184268c": [
-      8,
-      1,
-      6,
-      2,
-      3
-    ],
-    "33ccf6e7": [
       8,
       1,
       6,

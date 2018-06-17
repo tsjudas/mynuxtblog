@@ -4,9 +4,7 @@
       <h3>{{title}}</h3>
     </div>
     <div class="mdl-cell mdl-cell--12-col" v-html="parseHtml"></div>
-    <div class="mdl-cell mdl-cell--12-col">
-      <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" @click="goback">戻る</button>
-    </div>
+    <PageNavButtons />
   </div>
 </template>
 
@@ -33,6 +31,7 @@ tr:nth-child(2n+1) {
 
 <script >
 import {sourceFileArray} from '~/content/json/summary.json';
+import PageNavButtons from '~/components/PageNavButtons';
 const { markdownItTable } = require('markdown-it-table');
 const md = require('markdown-it')({linkify: true})
   .use(require('markdown-it-highlightjs'))
@@ -57,10 +56,8 @@ export default {
       title: title,
     };
   },
-  methods: {
-    goback() {
-      this.$router.back();
-    },
+  components: {
+    PageNavButtons
   }
 }
 </script>

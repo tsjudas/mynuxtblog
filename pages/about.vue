@@ -9,21 +9,19 @@
     <div class="mdl-cell mdl-cell--12-col">
       <router-link to="/post/content_posts_etc/2018-06-15-about-me">プロフィールはこちら</router-link>
     </div>
-    <div class="mdl-cell mdl-cell--12-col">
-      <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" @click="goback">戻る</button>
-    </div>
+    <PageNavButtons />
   </div>
 </template>
 
 <script>
+import PageNavButtons from '~/components/PageNavButtons';
+
 export default {
   data(){
     return { }
   },
-  methods: {
-    goback() {
-      this.$router.back();
-    },
+  components: {
+    PageNavButtons
   }
 }
 </script>

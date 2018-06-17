@@ -21,7 +21,6 @@
 </div>
 </template>
 
-
 <script>
 export default {
   methods: {
@@ -58,5 +57,12 @@ export default {
 }
 .mdl-layout__obfuscator {
     position: fixed;
+}
+html, body {
+  overflow-y: auto;
+  min-height: 100%;
+}
+mdl-layout {
+  min-height: 100%;
 }
 </style>

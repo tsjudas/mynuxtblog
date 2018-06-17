@@ -12,12 +12,12 @@ workboxSW.precache([
     "revision": "89843e2d1b8ede7a8bb102091ac20f29"
   },
   {
-    "url": "/mynuxtblog/_nuxt/layouts/default.df2e9f294d5e39f8ccb3.js",
-    "revision": "18144271de8ee3c1051ec845e03474ac"
+    "url": "/mynuxtblog/_nuxt/layouts/default.875831cad1e3b7b9574b.js",
+    "revision": "460ddb4faca7be004de720413c0571cb"
   },
   {
-    "url": "/mynuxtblog/_nuxt/manifest.27313f9775a3c6af42a1.js",
-    "revision": "e505ac7d968dcd9263313b5906df7816"
+    "url": "/mynuxtblog/_nuxt/manifest.1712eabb992aae5d1eac.js",
+    "revision": "b080c6625ab06c67b41243b5c5396103"
   },
   {
     "url": "/mynuxtblog/_nuxt/pages/about.956bbc672b93459588e1.js",

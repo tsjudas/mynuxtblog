@@ -7,17 +7,17 @@
     "fonts/typicons.29f9630.ttf",
     "pages/post/_path/_url/index.7cdd7d9b67fc8c0aa4fe.js",
     "pages/about.956bbc672b93459588e1.js",
-    "layouts/default.df2e9f294d5e39f8ccb3.js",
+    "layouts/default.875831cad1e3b7b9574b.js",
     "fonts/typicons.95aa28e.woff",
     "vendor.17ea40b8fcba55ad1fce.js",
     "app.a6f9dbe8322279443c2b.js",
-    "manifest.27313f9775a3c6af42a1.js",
+    "manifest.1712eabb992aae5d1eac.js",
     "LICENSES",
     "manifest.ac94d0e0.json",
     "index.spa.html"
   ],
   "initial": [
-    "manifest.27313f9775a3c6af42a1.js",
+    "manifest.1712eabb992aae5d1eac.js",
     "vendor.17ea40b8fcba55ad1fce.js",
     "app.a6f9dbe8322279443c2b.js"
   ],
@@ -25,7 +25,7 @@
     "pages/index.ef093355828705e491e6.js",
     "pages/post/_path/_url/index.7cdd7d9b67fc8c0aa4fe.js",
     "pages/about.956bbc672b93459588e1.js",
-    "layouts/default.df2e9f294d5e39f8ccb3.js"
+    "layouts/default.875831cad1e3b7b9574b.js"
   ],
   "modules": {
     "11752737": [

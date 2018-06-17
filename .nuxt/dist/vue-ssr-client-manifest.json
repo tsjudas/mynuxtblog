@@ -1,29 +1,29 @@
 {
   "publicPath": "/mynuxtblog/_nuxt/",
   "all": [
-    "pages/about.599d7a0d387718f45d35.js",
+    "pages/about.6dad60d97d1fd6294ea7.js",
     "img/typicons.107d077.svg",
     "fonts/typicons.a509074.eot",
     "fonts/typicons.29f9630.ttf",
-    "pages/post/_path/_url/index.f3c3c2a64850ac36e59f.js",
+    "pages/post/_path/_url/index.e86c581b68b2e20808af.js",
     "layouts/default.e8a516d56831660dd6e4.js",
     "pages/index.f0f848040debf7e721b6.js",
     "fonts/typicons.95aa28e.woff",
     "vendor.17ea40b8fcba55ad1fce.js",
-    "app.9ca80b3dee7b28643540.js",
-    "manifest.ea9ca9944f6780fea9a2.js",
+    "app.738a4e7a9ff052f7ce71.js",
+    "manifest.e6e86e6d00893325f640.js",
     "LICENSES",
     "manifest.ac94d0e0.json",
     "index.spa.html"
   ],
   "initial": [
-    "manifest.ea9ca9944f6780fea9a2.js",
+    "manifest.e6e86e6d00893325f640.js",
     "vendor.17ea40b8fcba55ad1fce.js",
-    "app.9ca80b3dee7b28643540.js"
+    "app.738a4e7a9ff052f7ce71.js"
   ],
   "async": [
-    "pages/about.599d7a0d387718f45d35.js",
-    "pages/post/_path/_url/index.f3c3c2a64850ac36e59f.js",
+    "pages/about.6dad60d97d1fd6294ea7.js",
+    "pages/post/_path/_url/index.e86c581b68b2e20808af.js",
     "layouts/default.e8a516d56831660dd6e4.js",
     "pages/index.f0f848040debf7e721b6.js"
   ],
@@ -148,6 +148,9 @@
     "2ff2a9bc": [
       4
     ],
+    "5899d751": [
+      4
+    ],
     "0413d834": [
       6
     ],
@@ -251,6 +254,16 @@
     ],
     "a654a732": [
       4
+    ],
+    "1f32919e": [
+      4
+    ],
+    "33ccf6e7": [
+      8,
+      1,
+      7,
+      2,
+      3
     ],
     "2380b060": [
       4
@@ -358,16 +371,6 @@
     "89925cf6": [
       4
     ],
-    "b3c4759e": [
-      4
-    ],
-    "33ccf6e7": [
-      8,
-      1,
-      7,
-      2,
-      3
-    ],
     "233e8ca6": [
       8,
       1,
@@ -455,6 +458,9 @@
       4
     ],
     "327502cf": [
+      4
+    ],
+    "e0871b4c": [
       4
     ],
     "513aed82": [
@@ -632,6 +638,9 @@
       4
     ],
     "611180b8": [
+      4
+    ],
+    "b3c4759e": [
       4
     ],
     "5b30fa13": [
@@ -1753,7 +1762,7 @@
     "9421437c": [
       4
     ],
-    "1f32919e": [
+    "1c8612d5": [
       4
     ],
     "5564ff15": [
@@ -1805,6 +1814,9 @@
       4
     ],
     "9ae62344": [
+      4
+    ],
+    "2049e9ee": [
       4
     ],
     "d745aec4": [

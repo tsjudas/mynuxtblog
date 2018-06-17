@@ -21,6 +21,7 @@
     "@nuxtjs/sitemap": "^0.1.1",
     "markdown-it-emoji": "^1.4.0",
     "markdown-it-highlightjs": "^3.0.0",
+    "markdown-it-table": "^2.0.3",
     "material-design-lite": "^1.3.0",
     "nuxt": "^1.0.0",
     "processmd": "^4.2.1",

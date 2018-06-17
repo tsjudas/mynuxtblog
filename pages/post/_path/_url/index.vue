@@ -10,11 +10,34 @@
   </div>
 </template>
 
+<style>
+table {
+  background-color: #F4FFFF;
+  border-spacing: 0;
+  border-top: 1px solid #000000;
+  border-right: 1px solid #000000;
+}
+th {
+  background-color: #EAFFEA;
+  border-bottom: 1px solid #000000;
+  border-left: 1px solid #000000;
+}
+td {
+  border-bottom: 1px solid #000000;
+  border-left: 1px solid #000000;
+}
+tr:nth-child(2n+1) {
+  background-color: #FFFFFF;
+}
+</style>
+
 <script >
 import {sourceFileArray} from '~/content/json/summary.json';
+const { markdownItTable } = require('markdown-it-table');
 const md = require('markdown-it')({linkify: true})
   .use(require('markdown-it-highlightjs'))
-  .use(require('markdown-it-emoji'));
+  .use(require('markdown-it-emoji'))
+  .use(markdownItTable);
 
 export default {
   validate({params}){

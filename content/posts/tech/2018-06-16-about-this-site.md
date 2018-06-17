@@ -69,7 +69,7 @@ N番煎じ:tea:ながらも自分で１から作成したいと思い起ち、�
         const moduleUrl = params.path.replace(/_/g, '/') + '/' + params.url;
         const post = Object.assign({}, require(`~/${moduleUrl}.json`), moduleUrl);
         const md = require('markdown-it')({linkify: true}).use(require('markdown-it-highlightjs'));
-        post.parseHtml = md.render(post.bodyContent); // 意味ねぇ！
+        post.parseHtml = md.render(post.bodyContent); // bodyHtmlの意味ねぇ！
         return post;
     },
     ```

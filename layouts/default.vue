@@ -1,25 +1,23 @@
 <template>
-<div class="mdl-layout mdl-js-layout">
-  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header has-drawer">
-    <header class="mdl-layout__header mdl-layout--small-screen-only mdl-color--grey-100">
-      <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title mdl-color-text--black">ポンコツの雑記帳</span>
-      </div>
-    </header>
-    <div class="mdl-layout__drawer mdl-color-text--black">
-      <span class="mdl-layout-title">ポンコツの雑記帳</span>
-      <nav class="mdl-navigation">
-        <router-link class="mdl-navigation__link" to="/" @click.native="closeDrawer">Home</router-link>
-        <router-link class="mdl-navigation__link" to="/about/" @click.native="closeDrawer">About me</router-link>
-        <router-link class="mdl-navigation__link" to="/" @click.native="closeDrawer">Contact</router-link>
-      </nav>
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header has-drawer">
+  <header class="mdl-layout__header mdl-layout--small-screen-only mdl-color--grey-100">
+    <div class="mdl-layout__header-row">
+      <span class="mdl-layout-title mdl-color-text--black">雑記帳 Techもあるよ</span>
     </div>
-    <main class="mdl-layout__content">
-      <div class="page-content">
-        <nuxt/>
-      </div>
-    </main>
+  </header>
+  <div class="mdl-layout__drawer mdl-color-text--black">
+    <span class="mdl-layout-title">雑記帳 Techもあるよ</span>
+    <nav class="mdl-navigation">
+      <router-link class="mdl-navigation__link" to="/" @click.native="closeDrawer">Home</router-link>
+      <router-link class="mdl-navigation__link" to="/about/" @click.native="closeDrawer">About me</router-link>
+      <router-link class="mdl-navigation__link" to="/" @click.native="closeDrawer">Contact</router-link>
+    </nav>
   </div>
+  <main class="mdl-layout__content">
+    <div class="page-content">
+      <nuxt/>
+    </div>
+  </main>
 </div>
 </template>
 
